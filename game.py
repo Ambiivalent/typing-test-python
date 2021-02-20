@@ -81,6 +81,8 @@ fx = pygame.midi.Output(0)
 clock = pygame.time.Clock()   
 font = pygame.font.SysFont(None, 48)
 fx.set_instrument(113)
+
+pygame.display.set_caption("TYPING TEST")
 #------------------------------------------------------------------------------------------------------------------------------------------------------
 # STARTING VARIABLES
 playing = True                                                                                                                 # STATE OF GAME
