@@ -68,7 +68,7 @@ def get_accuracy(text, currentWord):
 list_of_words = []
 file = open("listOfWords.txt", "r")
 for words in file:
-    list_of_words.append(words[:-1])                                                                                          # GRAB ALL WORDS MINUS \n
+    list_of_words.append(words[:-1])                                                                                           # GRAB ALL WORDS MINUS \n
 file.close()
 #------------------------------------------------------------------------------------------------------------------------------------------------------
 # INITALIZE LIBRARIES
@@ -85,15 +85,15 @@ fx.set_instrument(113)
 pygame.display.set_caption("TYPING TEST")
 #------------------------------------------------------------------------------------------------------------------------------------------------------
 # STARTING VARIABLES
-playing = True                                                                                                                 # STATE OF GAME
-solved = True                                                                                                                  # STATE OF WORD
-text = ""                                                                                                                      # INPUT TEXT
+playing = True                                                                                                                  # STATE OF GAME
+solved = True                                                                                                                   # STATE OF WORD
+text = ""                                                                                                                       # INPUT TEXT
 
-time_state = False                                                                                                             # CHECK IF TIMER IS ON
-start_timer = 0                                                                                                                # TIMER WHEN GAME START
-wordCount = 0                                                                                                                  # WORDS COMPLETED
-charCount = 0                                                                                                                  # CHARACTERS TYPED
-correctCount = 0                                                                                                               # CORRECT CHARACTERS TYPED  
+time_state = False                                                                                                              # CHECK IF TIMER IS ON
+start_timer = 0                                                                                                                 # TIMER WHEN GAME START
+wordCount = 0                                                                                                                   # WORDS COMPLETED
+charCount = 0                                                                                                                   # CHARACTERS TYPED
+correctCount = 0                                                                                                                # CORRECT CHARACTERS TYPED  
 #------------------------------------------------------------------------------------------------------------------------------------------------------
 # MAIN LOOP
 while playing:
